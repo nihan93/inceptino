@@ -1,0 +1,516 @@
+docker stop $(docker ps -aq)
+docker rm $(docker ps -aq)
+
+docker image prune -a
+
+
+service mysql start: This command starts the MySQL 
+or MariaDB service on the system. It assumes that 
+you have MySQL or MariaDB installed as a system service, 
+and it's starting that service.
+
+
+
+Database Servers and Sockets:
+
+Database servers, like MySQL and MariaDB, use sockets for local connections. When a client application running on the same server wants to communicate with the database server, it can use a Unix domain socket to establish a connection. This is often more efficient than using network sockets because it doesn't involve the overhead of IP routing and network protocols.
+Network sockets are used for remote connections to a database server. In this case, the client application specifies the server's IP address and port number to establish a connection over a network.
+In summary, sockets are a low-level communication mechanism used for processes to exchange data, and they come in two main flavors: local (Unix domain sockets) and network sockets. Database servers, depending on the type of connection (local or remote), may use either Unix domain sockets for local communication or network sockets for remote communication.
+
+While sockets are a foundational concept in networking and inter-process communication, they don't directly relate to databases themselves but are crucial for enabling client applications to communicate with database servers, whether locally or over a network.
+
+
+FredBoat♪♪
+BOT
+ — 10/09/2022 22:35
+Forwarding Jeremiah was a bullfrog by 00:03.
+FredBoat♪♪
+BOT
+ — 10/09/2022 22:35
+Forwarding Jeremiah was a bullfrog by 00:03.
+FredBoat♪♪
+BOT
+ — 10/09/2022 22:35
+Forwarding Jeremiah was a bullfrog by 00:03.
+FredBoat♪♪
+BOT
+ — 10/09/2022 22:35
+Forwarding Jeremiah was a bullfrog by 00:03.
+FredBoat♪♪
+BOT
+ — 10/09/2022 22:35
+Forwarding Jeremiah was a bullfrog by 00:03.
+FredBoat♪♪
+BOT
+ — 10/09/2022 22:35
+Forwarding Jeremiah was a bullfrog by 00:03.
+niggan — 11/09/2022 15:33
+⁠Unknown
+Longest increasing subsequence utilisant programmation dynamique
+https://www.youtube.com/watch?v=NhXl1BuIQ5E
+YouTube
+BOUARARA hadj Ahmed
+Longest increasing subsequence utilisant programmation dynamique
+Image
+niggan — 16/09/2022 01:18
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   sort_complex.c                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: nihan <nihan@student.42.fr>                +#+  +:+       +#+        */
+Expand
+sort_complex.c
+3 KB
+niggan — 01/10/2022 06:11
+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
+libft
+niggan — 17/10/2022 07:31
+https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/4_Threads.html#:~:text=A%20thread%20is%20a%20basic,out%20at%20any%20given%20time.
+
+
+https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/4_Threads.html#:~:text=A%20thread%20is%20a%20basic,out%20at%20any%20given%20time.
+
+Expand
+philo_notes.txt
+10 KB
+niggan — 26/10/2022 12:46
+https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/4_Threads.html#:~:text=A%20thread%20is%20a%20basic,out%20at%20any%20given%20time.
+
+
+https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/4_Threads.html#:~:text=A%20thread%20is%20a%20basic,out%20at%20any%20given%20time.
+
+Expand
+philo_notes.txt
+14 KB
+niggan — 08/11/2022 00:15
+https://serverfault.com/questions/805310/does-the-bash-usleep-block-or-will-it-yield-to-other-threads
+Server Fault
+Does the bash usleep block? Or will it yield to other threads?
+I understand there is a usleep command in bash. Is this a "busy" or "blocking" sleep? Or will this yield time to other processes?
+Image
+niggan — 06/12/2022 04:16
+should exit() in a pipe be executed
+niggan — 06/12/2022 04:34
+''
+""
+niggan — 07/12/2022 09:28
+]
+Image
+niggan — 08/12/2022 19:53
+/*
+pathsssss unset exit ..
+If a command is not found, the child process created to execute it returns a status of 127.
+If a command is found but is not executable, the return status is 126.
+*/
+
+// unset TERM TERMCHIHAJA
+//cmds majiscules
+//declare -x r-=""
+//export and unset should ++ when there is an error not exit !!!
+// export unset _
+//cat | cat | ls (u closed a file u should not close at that time)
+//ls | cat | wc | grep 1 => hang (i think hrab lik file descriptor)
+//ls | cat | cat hrab fd she think close
+niggan — 11/12/2022 14:25
+int pipedCommand(command_t *command)
+{
+	int fd[10][2];
+	int status;
+	int isFirstPipe = 1;
+	int pid[10] = {-1};
+Expand
+pipi.c
+2 KB
+niggan — 14/12/2022 13:57
+if num pipes> 1
+extra pipe
+niggan — 19/12/2022 01:48
+Attachment file type: acrobat
+subjectmini.pdf
+1.25 MB
+Attachment file type: acrobat
+netpractiss.pdf
+1.62 MB
+Attachment file type: unknown
+net_practice.tgz
+280.91 KB
+exit btw
+mtnsaych
+Image
+niggan — 19/12/2022 05:31
+nuedess
+niggan — 19/02/2023 17:40
+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
+token
+niggan — 22/04/2023 02:42
+pwxYOPm7ippGaY92uCZ1R7p
+niggan — 25/06/2023 19:11
+pwxYOPm7ippGaY92uCZ1R7p
+ptbHoV3qXOBKhvks
+niggan — 21/07/2023 02:09
+https://www.youtube.com/watch?v=t7HwVU95ICc&ab_channel=AugustinHadelich
+YouTube
+Augustin Hadelich
+Augustin Hadelich plays Chopin Nocturne c sharp minor (arr. Milstei...
+Image
+niggan — 09/08/2023 14:23
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   Bureaucrat.cpp                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ael-hayy <ael-hayy@student.42.fr>          +#+  +:+       +#+        */
+Expand
+Bureaucrat.cpp
+3 KB
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   Bureaucrat.hpp                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ael-hayy <ael-hayy@student.42.fr>          +#+  +:+       +#+        */
+Expand
+Bureaucrat.hpp
+2 KB
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main.cpp                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ael-hayy <ael-hayy@student.42.fr>          +#+  +:+       +#+        */
+Expand
+main.cpp
+2 KB
+Attachment file type: unknown
+Makefile
+1.20 KB
+niggan — 12/08/2023 20:42
+#include "Bureaucrat.hpp"
+
+Bureaucrat::Bureaucrat() : _name("Bureaucrat"), _grade(150)
+{
+	std::cout << "Default Constructor called" << std::endl;
+}
+Expand
+Bureaucrat.cpp
+2 KB
+#ifndef BUREAUCRAT_HPP
+#define BUREAUCRAT_HPP
+#include <iostream>
+
+class Bureaucrat {
+	private :
+Expand
+Bureaucrat.hpp
+1 KB
+#include "Bureaucrat.hpp"
+
+int main()
+{
+	try {
+		Bureaucrat b("gg", 1);
+Expand
+main.cpp
+1 KB
+Attachment file type: unknown
+Makefile
+316 bytes
+================
+#include "Bureaucrat.hpp"
+
+Bureaucrat::Bureaucrat() : _name("Bureaucrat"), _grade(150)
+{
+	std::cout << "Bureaucrat Default Constructor called" << std::endl;
+}
+Expand
+Bureaucrat.cpp
+2 KB
+#ifndef BUREAUCRAT_HPP
+#define BUREAUCRAT_HPP
+#include <iostream>
+#include "Form.hpp"
+
+class Form;
+Expand
+Bureaucrat.hpp
+1 KB
+#include "Form.hpp"
+
+Form::Form()
+	: _name("Form"), _signed(false), _s_grade(150), _e_grade(150)
+{
+	std::cout << "Default Form Constructor called" << std::endl;
+Expand
+Form.cpp
+2 KB
+#ifndef FORM_HPP
+#define FORM_HPP
+#include <iostream>
+#include "Bureaucrat.hpp"
+
+class Bureaucrat;
+Expand
+Form.hpp
+1 KB
+#include "Bureaucrat.hpp"
+
+int main()
+{
+	try {
+		Form paper("tosign", 1, 1);
+Expand
+main.cpp
+1 KB
+Attachment file type: unknown
+Makefile
+325 bytes
+========
+#include "AForm.hpp"
+
+AForm::AForm() : _name("AForm"), _signed(false), _s_grade(150), _e_grade(150)
+{
+	std::cout << "Default AForm Constructor called" << std::endl;
+}
+Expand
+AForm.cpp
+2 KB
+#ifndef AForm_HPP
+#define AForm_HPP
+#include <iostream>
+#include <fstream>
+#include "Bureaucrat.hpp"
+Expand
+AForm.hpp
+1 KB
+#include "Bureaucrat.hpp"
+
+Bureaucrat::Bureaucrat() : _name("Bureaucrat"), _grade(150)
+{
+	std::cout << "Bureaucrat Default Constructor called" << std::endl;
+}
+Expand
+Bureaucrat.cpp
+3 KB
+#ifndef BUREAUCRAT_HPP
+#define BUREAUCRAT_HPP
+#include <iostream>
+#include "AForm.hpp"
+
+class AForm;
+Expand
+Bureaucrat.hpp
+2 KB
+#include "Bureaucrat.hpp"
+#include "ShrubberyCreationForm.hpp"
+#include "RobotomyRequestForm.hpp"
+#include "PresidentialPardonForm.hpp"
+int main()
+{
+Expand
+main.cpp
+2 KB
+Attachment file type: unknown
+Makefile
+404 bytes
+#include "PresidentialPardonForm.hpp"
+#include "Bureaucrat.hpp"
+
+PresidentialPardonForm::PresidentialPardonForm() : 
+	AForm("Presidential Pardon", 25, 5), _target("None")
+{
+Expand
+PresidentialPardonForm.cpp
+2 KB
+#pragma once
+#include "AForm.hpp"
+
+class PresidentialPardonForm : public AForm {
+	private :
+		const std::string _target;
+Expand
+PresidentialPardonForm.hpp
+1 KB
+#include "RobotomyRequestForm.hpp"
+#include "Bureaucrat.hpp"
+
+RobotomyRequestForm::RobotomyRequestForm() : 
+	AForm("Robotomy Request", 72, 45), _target("None")
+{
+Expand
+RobotomyRequestForm.cpp
+2 KB
+#pragma once
+#include "AForm.hpp"
+
+class RobotomyRequestForm : public AForm {
+	private :
+		const std::string _target;
+Expand
+RobotomyRequestForm.hpp
+1 KB
+#include "ShrubberyCreationForm.hpp"
+#include "Bureaucrat.hpp"
+
+ShrubberyCreationForm::ShrubberyCreationForm() : 
+	AForm("Shrubbery Creation", 145, 137), _target("None")
+{
+Expand
+ShrubberyCreationForm.cpp
+2 KB
+#pragma once
+#include "AForm.hpp"
+
+class ShrubberyCreationForm : public AForm {
+	private :
+		const std::string _target;
+Expand
+ShrubberyCreationForm.hpp
+1 KB
+++++++++++++++++++++++++++
+Attachment file type: unknown
+Makefile
+415 bytes
+#include "PresidentialPardonForm.hpp"
+#include "Bureaucrat.hpp"
+
+PresidentialPardonForm::PresidentialPardonForm() : 
+	AForm("Presidential Pardon", 25, 5), _target("None")
+{
+Expand
+PresidentialPardonForm.cpp
+2 KB
+#pragma once
+#include "AForm.hpp"
+
+class PresidentialPardonForm : public AForm {
+	private :
+		const std::string _target;
+Expand
+PresidentialPardonForm.hpp
+1 KB
+#include "RobotomyRequestForm.hpp"
+#include "Bureaucrat.hpp"
+
+RobotomyRequestForm::RobotomyRequestForm() : 
+	AForm("Robotomy Request", 72, 45), _target("None")
+{
+Expand
+RobotomyRequestForm.cpp
+2 KB
+#pragma once
+#include "AForm.hpp"
+
+class RobotomyRequestForm : public AForm {
+	private :
+		const std::string _target;
+Expand
+RobotomyRequestForm.hpp
+1 KB
+#include "ShrubberyCreationForm.hpp"
+#include "Bureaucrat.hpp"
+
+ShrubberyCreationForm::ShrubberyCreationForm() : 
+	AForm("Shrubbery Creation", 145, 137), _target("None")
+{
+Expand
+ShrubberyCreationForm.cpp
+2 KB
+#pragma once
+#include "AForm.hpp"
+
+class ShrubberyCreationForm : public AForm {
+	private :
+		const std::string _target;
+Expand
+ShrubberyCreationForm.hpp
+1 KB
+#include "AForm.hpp"
+
+AForm::AForm() : _name("AForm"), _signed(false), _s_grade(150), _e_grade(150)
+{
+	std::cout << "Default AForm Constructor called" << std::endl;
+}
+Expand
+AForm.cpp
+2 KB
+#ifndef AForm_HPP
+#define AForm_HPP
+#include <iostream>
+#include <fstream>
+#include "Bureaucrat.hpp"
+Expand
+AForm.hpp
+1 KB
+#include "Bureaucrat.hpp"
+
+Bureaucrat::Bureaucrat() : _name("Bureaucrat"), _grade(150)
+{
+	std::cout << "Bureaucrat Default Constructor called" << std::endl;
+}
+Expand
+Bureaucrat.cpp
+3 KB
+#ifndef BUREAUCRAT_HPP
+#define BUREAUCRAT_HPP
+#include <iostream>
+#include "AForm.hpp"
+
+class AForm;
+Expand
+Bureaucrat.hpp
+2 KB
+#include "Intern.hpp"
+
+Intern::Intern()
+{
+	std::cout << "Intern default constructor called" << std::endl;
+}
+Expand
+Intern.cpp
+2 KB
+#ifndef INTERN_HPP
+#define INTERN_HPP
+#include "AForm.hpp"
+#include "ShrubberyCreationForm.hpp"
+#include "RobotomyRequestForm.hpp"
+#include "PresidentialPardonForm.hpp"
+Expand
+Intern.hpp
+1 KB
+#include "Bureaucrat.hpp"
+#include "ShrubberyCreationForm.hpp"
+#include "RobotomyRequestForm.hpp"
+#include "PresidentialPardonForm.hpp"
+#include "Intern.hpp"
+int main()
+Expand
+main.cpp
+2 KB
+niggan — 21/08/2023 13:15
+Fake GitHub contributions trick
+Create a private repository, and run the following Python script, don’t forget to configure your commit to be verified using GPG Key.
+import os
+from random import randint
+
+for i in range(0, 365):
+    for j in range(0, randint(0, 10)):
+        d = str(i) + ' days ago'
+        with open('file.txt', 'a') as file:
+            file.write(d + "\n")
+        os.system('git add .')
+        os.system('git commit --date="' + d + '" -m "commit"')
+os.system('git push')
+niggan — Today at 02:23
+Database Servers and Sockets:
+
+Database servers, like MySQL and MariaDB, use sockets for local connections. When a client application running on the same server wants to communicate with the database server, it can use a Unix domain socket to establish a connection. This is often more efficient than using network sockets because it doesn't involve the overhead of IP routing and network protocols.
+Network sockets are used for remote connections to a database server. In this case, the client application specifies the server's IP address and port number to establish a connection over a network.
+In summary, sockets are a low-level communication mechanism used for processes to exchange data, and they come in two main flavors: local (Unix domain sockets) and network sockets. Database servers, depending on the type of connection (local or remote), may use either Unix domain sockets for local communication or network sockets for remote communication.
+
+While sockets are a foundational concept in networking and inter-process communication, they don't directly relate to databases themselves but are crucial for enabling client applications to communicate with database servers, whether locally or over a network.
+niggan — Today at 02:34
+When a process or application wants to communicate over a network, it typically creates a socket to establish a connection. The socket is associated with a specific IP address and port number.
+
+
+
