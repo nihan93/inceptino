@@ -11,7 +11,7 @@ if [ ! -f '/var/www/wordpress/wp-config.php' ]; then
         --dbhost=mariadb:3306 --path='/var/www/wordpress'
 fi
 if ! wp core is-installed --allow-root; then
-    wp core install --allow-root --url=$DOMAIN_NAME --title=bamrouch  --admin_user=$WP_USER \
+    wp core install --allow-root --url=$DOMAIN_NAME --title=nbarakat  --admin_user=$WP_USER \
         --admin_password=$WP_PASS --admin_email=$WP_EMAIL 
 fi
 exec $@
