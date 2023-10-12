@@ -62,13 +62,13 @@ volumes:
     driver_opts:
       type: none
       o: bind
-      device : /home/nihal/data/wordpress
+      device : /home/nbarakat/data/wordpress
   mariadb:
     driver: local
     driver_opts:
       type: none
       o: bind
-      device: /home/nihal/data/mariadb
+      device: /home/nbarakat/data/mariadb
 
 networks:
   inception:

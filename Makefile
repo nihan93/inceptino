@@ -6,7 +6,7 @@
 #    By: nihal <nihal@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/12 03:12:27 by nihal             #+#    #+#              #
-#    Updated: 2023/10/12 04:20:01 by nihal            ###   ########.fr        #
+#    Updated: 2023/10/12 05:22:30 by nihal            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,8 +25,8 @@ status :
 	docker ps
 clean :
 	docker compose -f ./srcs/docker-compose.yml down -v
-	sudo rm -rf ~/data/mariadb/* ~/data/wordpress/*
-	docker rmi -f srcs-nginx:latest srcs-mariadb:latest srcs-wordpress:latest 
+	sudo rm -rf /home/nbarakat/data/mariadb/* /home/nbarakat/data/wordpress/*
+	docker rmi -f  nginx mariadb wordpress
 	
 re : clean all
 	
