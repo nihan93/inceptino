@@ -1,8 +1,6 @@
 #!/bin/bash
-# until mysqladmin ping -h mariadb:3306 --silent; do
-#     echo 'waiting for mysqld to be connectable...'
-    sleep 10
-# done
+
+sleep 10
 if [ ! -f '/var/www/wordpress/wp-config.php' ]; then
     wp config create	--allow-root \
         --dbname=$SQL_DB_NAME\
@@ -13,5 +11,10 @@ fi
 if ! wp core is-installed --allow-root; then
     wp core install --allow-root --url=$DOMAIN_NAME --title=nbarakat  --admin_user=$WP_USER \
         --admin_password=$WP_PASS --admin_email=$WP_EMAIL 
+fi
+if ! wp user list --allow-root --field=user_login | grep -q "^$W_USER$"; then
+    wp user create --allow-root $W_USER $W_EMAIL --user_pass=$W_PASS
+else
+    echo "User $W_USER already exists. Skipping user creation."
 fi
 exec $@

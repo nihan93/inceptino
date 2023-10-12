@@ -8,6 +8,7 @@ services:
     build:
       context: ./requirements/mariadb/
       dockerfile: Dockerfile
+    image: mariadb
     volumes:
       - mariadb:/var/lib/mysql
     expose:
@@ -23,6 +24,7 @@ services:
     build: 
       context: ./requirements/wordpress
       dockerfile: Dockerfile
+    image : wordpress
     networks:
       - inception
     volumes:
@@ -45,6 +47,7 @@ services:
       args:
         - CERTIF_PATH=${CERTIF_PATH}
         - KEY_PATH=${KEY_PATH}
+    image: nginx
     networks:
       - inception
     restart: on-failure
